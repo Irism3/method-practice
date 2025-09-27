@@ -1,16 +1,23 @@
 package com.pluralsight;
 
-import java.awt.datatransfer.StringSelection;
-
 public class Hello {
     public static void main(String[] args) {
-        String sayHello;
-        String sayGoodbye;
-        String sayGoodMorning;
+        // creating each method
+       sayHello();
+       sayGoodbye();
+       sayGoodMorning();
+    }
+    //call each method to main
+    public static void sayHello() {
+        System.out.println("Hello, World!");
+    }
 
-        System.out.println( );
+    public static void sayGoodbye() {
+        System.out.println("Goodbye!");
+    }
 
-
+    public static void sayGoodMorning() {
+        System.out.println("Good Morning!");
 
     }
 }
